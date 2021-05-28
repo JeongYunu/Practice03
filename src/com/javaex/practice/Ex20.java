@@ -9,8 +9,13 @@ public class Ex20 {
 			
 		boolean game = true;
 		boolean game1 = true;
-		int an = 50;
+		
 		while(game) {
+			
+			int an = (int)(Math.random()*100)+1;
+			System.out.println(an);
+			
+			
 			System.out.println("=========================");
 			System.out.println("[숫자맞추기게임 시작");
 			System.out.println("=========================");
